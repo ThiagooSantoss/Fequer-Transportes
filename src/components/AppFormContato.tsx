@@ -43,7 +43,7 @@ export const AppFormContato = () => {
               htmlFor="first-name"
               className="block text-sm font-semibold leading-6 text-white"
             >
-              First name
+              Nome
             </label>
             <div className="mt-2.5">
               <input
@@ -60,7 +60,7 @@ export const AppFormContato = () => {
               htmlFor="last-name"
               className="block text-sm font-semibold leading-6 text-white"
             >
-              Last name
+              Sobrenome
             </label>
             <div className="mt-2.5">
               <input
@@ -77,7 +77,7 @@ export const AppFormContato = () => {
               htmlFor="company"
               className="block text-sm font-semibold leading-6 text-white"
             >
-              Company
+              Companhia
             </label>
             <div className="mt-2.5">
               <input
@@ -111,7 +111,7 @@ export const AppFormContato = () => {
               htmlFor="phone-number"
               className="block text-sm font-semibold leading-6 text-white"
             >
-              Phone number
+              Número de telefone
             </label>
             <div className="relative mt-2.5">
               <div className="absolute inset-y-0 left-0 flex items-center">
@@ -123,9 +123,8 @@ export const AppFormContato = () => {
                   name="country"
                   className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
                 >
+                  <option>BR</option>
                   <option>US</option>
-                  <option>CA</option>
-                  <option>EU</option>
                 </select>
                 <ChevronDownIcon
                   className="pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400"
@@ -146,7 +145,7 @@ export const AppFormContato = () => {
               htmlFor="message"
               className="block text-sm font-semibold leading-6 text-white"
             >
-              Message
+              Mensagem
             </label>
             <div className="mt-2.5">
               <textarea
@@ -168,7 +167,7 @@ export const AppFormContato = () => {
                   "relative inline-flex h-6 w-11 items-center rounded-full transition-colors duration-200 ease-in-out"
                 )}
               >
-                <span className="sr-only">Agree to policies</span>
+                <span className="sr-only text-white">Agree to policies</span>
                 <span
                   className={classNames(
                     agreed ? "translate-x-6" : "translate-x-1",
@@ -177,9 +176,9 @@ export const AppFormContato = () => {
                 />
               </Switch>
             </div>
-            <label className="text-sm leading-6 text-gray-600">
+            <label className="text-sm leading-6 text-white">
               By selecting this, you agree to our{" "}
-              <a href="#" className="font-semibold text-indigo-600">
+              <a href="#" className="font-semibold text-white ">
                 privacy&nbsp;policy
               </a>
               .
