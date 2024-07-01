@@ -26,7 +26,7 @@ export const AppFormContato = () => {
       </div>
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-          Contact sales
+          Entre em contato
         </h2>
         <p className="mt-2 text-lg leading-8 text-slate-200">
           Preencha seus dados abaixo:
@@ -72,23 +72,7 @@ export const AppFormContato = () => {
               />
             </div>
           </div>
-          <div className="sm:col-span-2">
-            <label
-              htmlFor="company"
-              className="block text-sm font-semibold leading-6 text-white"
-            >
-              Companhia
-            </label>
-            <div className="mt-2.5">
-              <input
-                type="text"
-                name="company"
-                id="company"
-                autoComplete="organization"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              />
-            </div>
-          </div>
+
           <div className="sm:col-span-2">
             <label
               htmlFor="email"
@@ -167,7 +151,9 @@ export const AppFormContato = () => {
                   "relative inline-flex h-6 w-11 items-center rounded-full transition-colors duration-200 ease-in-out"
                 )}
               >
-                <span className="sr-only text-white">Agree to policies</span>
+                <span className="sr-only text-white">
+                  Concordar com as políticas
+                </span>
                 <span
                   className={classNames(
                     agreed ? "translate-x-6" : "translate-x-1",
@@ -177,9 +163,9 @@ export const AppFormContato = () => {
               </Switch>
             </div>
             <label className="text-sm leading-6 text-white">
-              By selecting this, you agree to our{" "}
+              Ao selecioná-lo, você concorda com o nosso{" "}
               <a href="#" className="font-semibold text-white ">
-                privacy&nbsp;policy
+                Política de Privacidade
               </a>
               .
             </label>
