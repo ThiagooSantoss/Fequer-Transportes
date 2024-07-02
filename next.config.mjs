@@ -4,6 +4,9 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const nextConfig = {
+  images: {
+    domains: ['avatars.githubusercontent.com'],
+  },  
   webpack: (config, { isServer }) => {
     // Adicione sua configuração personalizada do Webpack aqui
     config.resolve.alias["@"] = join(__dirname, "src");
