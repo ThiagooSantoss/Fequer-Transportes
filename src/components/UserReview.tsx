@@ -16,7 +16,7 @@ export const UserReview = () => {
         </Rating>
       </div>
       <Blockquote>
-        <p className="text-2xl font-semibold text-gray-900 dark:text-white">
+        <p className="text-xl font-semibold text-gray-900 dark:text-white">
         &quot;Estou realmente impressionado com a qualidade dos serviços prestados pela Fequer Transportes. Eles não só cumpriram todos os prazos como também garantiram que nossa carga fosse transportada de forma segura e eficiente. Toda a equipe demonstrou profissionalismo e atenção ao detalhe, o que fez toda a diferença para nossa operação. Recomendo fortemente a Fequer Transportes para quem busca um parceiro confiável no transporte de cargas.&quot;
         </p>
       </Blockquote>

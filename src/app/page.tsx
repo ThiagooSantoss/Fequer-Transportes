@@ -20,7 +20,7 @@ export default function Home() {
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="mb-8 text-3xl font-bold text-white">Nossos Serviços</h2>
           </div>
-          <article className="p-10">
+          <article className="p-10 text-xl">
               <p className="text-gray-200 mt-4 px-10">
               Na Fequer Transportes, oferecemos soluções completas em transporte de cargas para todo o Brasil. Nossa missão é garantir que sua carga chegue ao destino com segurança, eficiência e no prazo acordado. Conheça mais sobre nossos serviços:
               </p>
@@ -58,7 +58,7 @@ export default function Home() {
               <article className="max-w-xs">
                   <a href="">
                   <Image
-                    src={"https://avatars.githubusercontent.com/u/115852541?v=4"}
+                    src={"/Motorista_fequer.png"}
                     alt={`logo`}
                     width={350}
                     height={350}
@@ -66,17 +66,17 @@ export default function Home() {
                   />
                   </a>
                   <h2 className="mb-2 text-xl font-bold leading-tight text-white">
-                      <a href="">Thiago Santos</a>
+                      <a href="">Rogério Fequer</a>
                   </h2>
                   <p className="mb-4 text-gray-300 line-clamp-3">Motorista</p>
                   <span className="inline-flex items-center font-medium text-gray-200">
-                    Thiago possui grande experiência na condução de caminhões grandes e na manipulação de cargas pesadas.
+                    Rogério possui grande experiência na condução de caminhões grandes e na manipulação de cargas pesadas.
                   </span>
               </article>
               <article className="max-w-xs">
                   <a href="">
                   <Image
-                    src={"https://avatars.githubusercontent.com/u/115852541?v=4"}
+                    src={"/Motorista_fequer2.png"}
                     alt={`logo`}
                     width={350}
                     height={350}
@@ -84,17 +84,17 @@ export default function Home() {
                   />
                   </a>
                   <h2 className="mb-2 text-xl font-bold leading-tight text-white">
-                      <a href="">Thiago Santos</a>
+                      <a href="">Rogério Fequer</a>
                   </h2>
                   <p className="mb-4 text-gray-300 line-clamp-3">Motorista</p>
                   <span className="inline-flex items-center font-medium text-gray-200">
-                    Thiago possui grande experiência na condução de caminhões grandes e na manipulação de cargas pesadas.
+                    Rogério possui grande experiência na condução de caminhões grandes e na manipulação de cargas pesadas.
                   </span>
               </article>
               <article className="max-w-xs">
                   <a href="">
                   <Image
-                    src={"https://avatars.githubusercontent.com/u/115852541?v=4"}
+                    src={"/Motorista_fequer.png"}
                     alt={`logo`}
                     width={350}
                     height={350}
@@ -102,17 +102,17 @@ export default function Home() {
                   />
                   </a>
                   <h2 className="mb-2 text-xl font-bold leading-tight text-white">
-                      <a href="">Thiago Santos</a>
+                      <a href="">Rogério Fequer</a>
                   </h2>
                   <p className="mb-4 text-gray-300 line-clamp-3">Motorista</p>
                   <span className="inline-flex items-center font-medium text-gray-200">
-                    Thiago possui grande experiência na condução de caminhões grandes e na manipulação de cargas pesadas.
+                    Rogério possui grande experiência na condução de caminhões grandes e na manipulação de cargas pesadas.
                   </span>
               </article>
               <article className="max-w-xs">
                   <a href="">
                   <Image
-                    src={"https://avatars.githubusercontent.com/u/115852541?v=4"}
+                    src={"/Motorista_fequer2.png"}
                     alt={`logo`}
                     width={350}
                     height={350}
@@ -120,11 +120,11 @@ export default function Home() {
                   />
                   </a>
                   <h2 className="mb-2 text-xl font-bold leading-tight text-white">
-                      <a href="">Thiago Santos</a>
+                      <a href="">Rogério Fequer</a>
                   </h2>
                   <p className="mb-4 text-gray-300 line-clamp-3">Motorista</p>
                   <span className="inline-flex items-center font-medium text-gray-200">
-                    Thiago possui grande experiência na condução de caminhões grandes e na manipulação de cargas pesadas.
+                    Rogério possui grande experiência na condução de caminhões grandes e na manipulação de cargas pesadas.
                   </span>
               </article>
           </div>          
