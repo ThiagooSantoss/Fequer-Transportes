@@ -15,9 +15,9 @@ export const AppNavbar = () => {
           height={350}
         />
       </Navbar.Brand>
-      <div className="block md:hidden">
-        <Navbar.Toggle />
-      </div>
+
+      <Navbar.Toggle className="block md:hidden [&:not(:active)]:text-white [&:not(:active)]:bg-transparent focus:bg-[#005fa4] active:text-white" />
+
       <Navbar.Collapse className="w-fit p-8">
         <Navbar.Link href="/" className="text-white hover:text-black text-base">
           Início
