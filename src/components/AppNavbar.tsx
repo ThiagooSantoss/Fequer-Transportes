@@ -16,7 +16,7 @@ export const AppNavbar = () => {
         />
       </Navbar.Brand>
 
-      <Navbar.Toggle className="block md:hidden [&:not(:active)]:text-white [&:not(:active)]:bg-transparent focus:bg-[#005fa4] active:text-white" />
+      <Navbar.Toggle className=" lg:hidden [&:not(:active)]:text-white [&:not(:active)]:bg-transparent focus:bg-[#005fa4] active:text-white" />
 
       <Navbar.Collapse className="w-fit p-8">
         <Navbar.Link href="/" className="text-white hover:text-black text-base">
@@ -28,11 +28,20 @@ export const AppNavbar = () => {
         >
           Sobre
         </Navbar.Link>
-        <Navbar.Link href="#" className="text-white hover:text-black text-base">
+        <Navbar.Link
+          href="/#servico"
+          className="text-white hover:text-black text-base"
+        >
           Serviços
         </Navbar.Link>
         <Navbar.Link
-          href="/contato"
+          href="/#equipe"
+          className="text-white hover:text-black text-base"
+        >
+          Equipe
+        </Navbar.Link>
+        <Navbar.Link
+          href="/#contato"
           className="text-white hover:text-black text-base"
         >
           Contatos
